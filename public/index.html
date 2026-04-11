@@ -5,66 +5,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Places to Go</title>
 
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   
-  <link rel="stylesheet" href = "styles.css">
+  
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<header>
-  <h1>Places to Go</h1>
 
-  <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Destinos</a></li>
-      <li><a href="#">Contato</a></li>
-      <li><a href="#">Visitados</a></li>
-    </ul>
-  </nav>
+<header class="bg-success text-white">
+  <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center text-center text-md-start">
+    
+    <h1 class="fs-4 mb-2 mb-md-0">Places to Go</h1>
+
+    <nav>
+      <ul class="list-unstyled d-flex flex-column flex-md-row gap-3 mb-0">
+        <li><a href="#" class="text-white fw-bold text-decoration-none">Home</a></li>
+        <li><a href="#" class="text-white fw-bold text-decoration-none">Destinos</a></li>
+        <li><a href="#" class="text-white fw-bold text-decoration-none">Contato</a></li>
+        <li><a href="#" class="text-white fw-bold text-decoration-none">Visitados</a></li>
+      </ul>
+    </nav>
+
+  </div>
 </header>
 
-<main>
 
- 
-  <img src="images/Foto 01- Homepage.png" 01- Homepage.png class="banner">
+<main class="container text-center my-4">
 
-  
+  <img src="images/Foto 01- Homepage.png" class="img-fluid banner" alt="Banner">
+
+
   <section class="intro">
     <h2>Objetivo</h2>
   </section>
 
- 
+
   <section class="conteudo">
     <p>
-    O foco deste site é você poder pesquisar varios países e descobrir diversos pontos turisticos dos proprios.
+      O foco deste site é você poder pesquisar vários países e descobrir diversos pontos turísticos.
     </p>
-    <p>Também é possivel avaliar o local se ele ja foi visitado e deixar comentarios para pessoas que pretendem ir lá.</p>
+    <p>
+      Também é possível avaliar locais já visitados e deixar comentários.
     </p>
   </section>
 
 </main>
 
 
-  <div class="container-destinos">
-    <div class="card">
-      <img src="images/video_preview_0000.avif">
-      <p>Você pode pesquisar dos países mais diversos possiveis </p>
-    </div>
+<section class="destinos">
+  <div class="container fluid">
+    <div class="row g-4 justify-content-center">
 
-    <div class="card">
-      <img src="images/Avaliações.jpg">
-      <p>Você pode avaliar diversos pontos turistico com base de como foi sua experiência em determinado ponto</p>
-    </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="card">
+          <img src="images/video_preview_0000.avif" class="card-img-top" alt="">
+          <p>Você pode pesquisar países diversos</p>
+        </div>
+      </div>
 
-    <div class="card">
-      <img src="images/Comentarios.jpg">
-      <p>você pode deixar comentarios sobre sua ida dando dicas para pessoas que pretendem fazer a visita ao local.</p>
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="card">
+          <img src="images/Avaliações.jpg" class="card-img-top" alt="">
+          <p>Você pode avaliar pontos turísticos</p>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="card">
+          <img src="images/Comentarios.jpg" class="card-img-top" alt="">
+          <p>Você pode deixar comentários</p>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
-<footer>
-  <p>© 2026 Places to Go - Made by PucMinas student, Enzo Bonzi Cassilhas
+
+
+<footer class="bg-success text-white text-center p-3 mt-4">
+  <p class="mb-0">© 2026 Places to Go - By PucMinas student Enzo Bonzi Cassilhas</p>
 </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>

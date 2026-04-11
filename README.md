@@ -9,18 +9,18 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Enzo Bonzi Cassilhas
+- Matricula: 1648935
+- Proposta de projeto escolhida: 2 - Lugares e Experiências
+- Breve descrição sobre seu projeto: Um aplicativo que para qualquer país pesquisado tem a imagem dos pontos turisticos como: museus, restaurantes entre outros,  a quantidade de pessoas que ja visitou esse ponto e uma breve  descrição dele.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](<public/images/responsividade-botsrap desktop.png>)
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](public/images/responsividade-botstrapmobile.png)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
